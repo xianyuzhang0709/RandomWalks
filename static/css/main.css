@@ -1,0 +1,763 @@
+html, body {
+    height: 100%;
+    font-family: PingFangSC, helvetica neue, Helvetica, Arial, sans-serif;
+    color: #000
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: PingFangSC, helvetica neue, Helvetica, Arial, sans-serif
+}
+
+a {
+    font-weight: 500
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover
+}
+
+.section {
+    margin: 50px 0
+}
+
+footer {
+    margin: 5px 0
+}
+
+body {
+    overflow-y: scroll
+}
+
+body.modal-open {
+    overflow-y: scroll;
+    margin: 0
+}
+
+.modal {
+    overflow: auto
+}
+
+.more-link a:link {
+    color: #fff;
+    text-decoration: underline
+}
+
+.more-link a:visited {
+    color: #fff
+}
+
+.more-link a:hover {
+    color: #fafad2
+}
+
+.more-link a:active {
+    color: #ffffe0
+}
+
+.like-link a:link {
+    text-decoration: none
+}
+
+.like-link a:hover {
+    text-decoration: none
+}
+
+.panel-heading h1 {
+    font-size: 24px;
+    margin: -1px;
+    line-height: 170%
+}
+
+h1 {
+    font-size: 22px;
+    line-height: 170%
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 130%
+}
+
+.panel-body p {
+    font-size: 18px;
+    line-height: 170%
+}
+
+.promo {
+    margin-bottom: 5px;
+    padding: 8px;
+    font-size: 18px;
+    color: #000
+}
+
+.tag-style a:link {
+    color: #fff
+}
+
+.tag-style a:active {
+    color: #fff
+}
+
+.tag-style a:hover {
+    color: #fff
+}
+
+.tag-style a:visited {
+    color: #fff
+}
+
+.navbar-nav {
+    margin: 0
+}
+
+.navbar-nav > li {
+    float: none;
+    display: inline-block
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.navbar-nav > li.open > ul.dropdown-menu {
+    position: absolute;
+    border: 1px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
+}
+
+.all-content {
+    padding-top: 60px
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 95%;
+    max-width: 2000px
+}
+
+.footer-container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 40px
+}
+
+.watch-pic {
+    max-width: 90%
+}
+
+.iphone-pic {
+    max-width: 90%
+}
+
+.app-container {
+    padding-top: 20px;
+    color: #000
+}
+
+.app-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    line-height: 170%
+}
+
+.app-store-icon {
+    padding-top: 15px
+}
+
+.app-store-icon img {
+    width: 150px
+}
+
+.app-store-icon-rw {
+    padding-top: 10px
+}
+
+.app-store-icon-rw img {
+    width: 150px
+}
+
+.round-logo {
+    width: 80px
+}
+
+.summary-text {
+    color: #000;
+    line-height: 190%
+}
+
+.blog-post-date {
+    font-size: 12px
+}
+
+.blog-post-body {
+    font-size: 14px;
+    line-height: 180%;
+    padding-top: 5px;
+    color: #000
+}
+
+.blog-post-body img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.blog-post-body h1 {
+    font-size: 24px;
+    font-weight: 600
+}
+
+.blog-post-body h2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 150%
+}
+
+.blog-post-body h3 {
+    font-size: 20px;
+    font-weight: 500
+}
+
+.blog-post-body h4 {
+    font-size: 19px;
+    font-weight: 500
+}
+
+.blog-post-feature-picture img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.highlight {
+    background-color: #ff8
+}
+
+.hide-phone {
+}
+
+.hide-desktop {
+    display: none
+}
+
+.app-container h2 {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400
+}
+
+.small-promo-text {
+    font-size: 13px;
+    line-height: 150%
+}
+
+.app-download-button {
+    font-weight: bolder
+}
+
+.cta-btn {
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    -webkit-box-shadow: 3px 3px 3px #666;
+    -moz-box-shadow: 3px 3px 3px #666;
+    box-shadow: 3px 3px 3px #666;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    background: #dd4814;
+    padding: 10px 20px;
+    text-decoration: none
+}
+
+.cta-btn:hover {
+    background: #b5350b;
+    text-decoration: none;
+    color: #fff
+}
+
+.list-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    line-height: 170%
+}
+
+.issues-list-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    line-height: 170%
+}
+
+.aux-info-text {
+    font-size: 13px
+}
+
+.list-group-item h2 {
+    font-size: 20px
+}
+
+.list-group-item p {
+    font-size: 16px
+}
+
+.pager {
+    font-weight: 500
+}
+
+.appendix_list {
+    margin-top: 15px;
+    line-height: 170%
+}
+
+.brand-ad {
+    border-radius: 5px;
+    background-color: #fff4d6;
+    padding: 8px;
+    font-size: 14px;
+    color: #000;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    line-height: 170%
+}
+
+.ln-horizontal-scroll {
+    overflow: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+/ / IE10 + overflow: -moz-scrollbars-none;
+/ / Firefox-webkit-overflow-scrolling: touch
+}
+
+.ln-horizontal-scroll::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    background-color: transparent
+}
+
+@media screen and (max-width: 1200px) {
+    .brand-ad {
+        font-size: 13px;
+        padding: 5px
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        max-width: 100%
+    }
+
+    .panel-heading h1 {
+        font-size: 20px
+    }
+
+    .list-group-item h2 {
+        font-size: 18px
+    }
+
+    .list-group-item p {
+        font-size: 16px;
+        line-height: 170%
+    }
+
+    .nav > li > a {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .blog-post-body {
+        padding-top: 5px
+    }
+
+    .small-promo-text {
+        font-size: 11px;
+        line-height: 170%
+    }
+
+    .promo {
+        margin-top: -8px;
+        font-size: 12px
+    }
+
+    .promo .btn-xs {
+        font-size: 12px
+    }
+
+    .all-content {
+        padding-top: 65px
+    }
+
+    .navbar {
+    }
+
+    .nav-style {
+        font-size: 13px
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+        margin-left: -20px
+    }
+
+    .watch-pic {
+        max-width: 70%;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+
+    .iphone-pic {
+        max-width: 70%;
+        padding-bottom: 50px
+    }
+
+    .app-container {
+        color: #000
+    }
+
+    .app-text {
+        margin-top: -40px
+    }
+
+    .app-text h1 {
+        font-size: 20px
+    }
+
+    .app-text h2 {
+        font-size: 18px
+    }
+
+    .round-logo {
+        width: 60px
+    }
+
+    .app-store-icon img {
+        width: 135px
+    }
+
+    .app-store-icon-rw img {
+        width: 100px
+    }
+
+    .hide-phone {
+        display: none
+    }
+
+    .hide-desktop {
+        display: block
+    }
+}
+
+.right-nav {
+    padding-left: 10px
+}
+
+@media screen and (min-width: 1024px) {
+    .issues-list-title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 30px;
+        max-height: 60px;
+        height: 60px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .right-nav {
+        padding-left: 0
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .app-container h2 {
+        font-size: 16px
+    }
+
+    .round-logo {
+        width: 50px
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
+    .hide-tablet {
+        display: none
+    }
+
+    .hide-phone {
+        display: none
+    }
+
+    .hide-desktop {
+        display: block
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .hide-tablet {
+        display: none
+    }
+
+    .hide-phone {
+        display: none
+    }
+
+    .hide-desktop {
+        display: block
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1366px) and (max-width: 1366px) {
+    .hide-tablet {
+        display: block
+    }
+
+    .hide-phone {
+        display: block
+    }
+
+    .hide-desktop {
+        display: none
+    }
+}
+
+.left-nav-panel {
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.left-nav-border {
+    border-bottom: 1px solid darkgrey;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.left-nav-panel-title {
+    font-size: 18px;
+    color: #000;
+    line-height: 190%;
+    padding-bottom: 10px;
+    font-weight: 500
+}
+
+.left-nav-panel-body {
+    font-size: 14px;
+    color: #000;
+    line-height: 170%;
+    font-weight: 400
+}
+
+.download-small {
+    width: 60px
+}
+
+.banner_ad {
+    padding-bottom: 8px;
+    text-align: center;
+    margin: auto;
+    max-width: 580px
+}
+
+.right-nav-footer {
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #aea79f
+}
+
+.right-nav-footer-link {
+    color: #aea79f
+}
+
+.ads-price {
+    font-size: 14px
+}
+
+.banner_ad_text {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    max-width: 100%;
+    padding-bottom: 5px;
+    margin: auto
+}
+
+.mobile-ads-header {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    text-align: center;
+    color: #aea79f
+}
+
+@media screen and (max-width: 1024px) {
+    .banner_ad {
+        padding-left: 8px;
+        padding-right: 8px
+    }
+}
+
+.wq-sticky-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px
+}
+
+.donate-thanks-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.donate-thanks-block {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 3px fade(black, 10%);
+    border: 1px solid rgba(0, 0, 0, .1)
+}
+
+.donate-thanks-image {
+    width: 100px;
+    height: 100px
+}
+
+@media screen and (max-width: 768px) {
+    .donate-thanks-image {
+        width: 75px;
+        height: 75px
+    }
+
+    .donate-thanks-block {
+        margin-right: 4px;
+        margin-bottom: 4px;
+        box-shadow: 0 2px 3px fade(black, 10%);
+        border: 1px solid rgba(0, 0, 0, .1)
+    }
+}
+
+.wanqu-open-app {
+    display: none
+}
+
+.wanqu-open-app-container {
+    display: none
+}
+
+@media screen and (max-width: 768px) {
+    .wanqu-open-app-container {
+        display: flex;
+        justify-content: center
+    }
+
+    .wanqu-open-app {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 20px;
+        z-index: 1000;
+        width: 105px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 36px;
+        color: #fff;
+        text-align: center;
+        background: #000;
+        border-radius: 18px;
+        box-shadow: 0 2px 5px rgba(26, 26, 26, .25);
+        transition: -webkit-transform .3s .3s;
+        transition: transform .3s .3s;
+        transition: transform .3s .3s, -webkit-transform .3s .3s
+    }
+}
+
+.wq-navbar {
+    padding-top: 16px;
+    padding-bottom: 32px;
+    display: flex
+}
+
+.wq-navbar a {
+    text-decoration: none
+}
+
+.wq-nav-left {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.wq-nav-right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.wq-nav-right .wq-nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.wq-nav-right .wq-nav-item {
+    display: inline;
+    padding-left: 8px
+}
+
+.wq-nav-logo {
+    font-size: 20px
+}
+
+.wq-nav-dropdown-menu {
+    margin-top: 8px;
+    min-width: 120px
+}
+
+.wq-header {
+    line-height: 130%;
+    margin-top: 4px;
+    margin-bottom: 16px
+}
+
+.wq-subheader {
+    padding-top: 16px
+}
+
+.wq-subheader-right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    font-size: 12px
+}
+
+@media screen and (max-width: 1200px) {
+    .wq-subheader-right {
+        padding-top: 16px;
+        display: flex;
+        flex: 1;
+        justify-content: flex-start;
+        font-size: 12px
+    }
+
+    .wq-header {
+        text-align: left
+    }
+}
